@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/treydavidson/Desktop/Calculator/output/trig'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _fact, symObjAddr: 0x0, symBinAddr: 0x100003B6C, symSize: 0x60 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _fact, symObjAddr: 0x0, symBinAddr: 0x100003B6C, symSize: 0x60 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _normalize, symObjAddr: 0x60, symBinAddr: 0x100003BCC, symSize: 0x108 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _sin_x_maclaurin, symObjAddr: 0x168, symBinAddr: 0x100003CD4, symSize: 0xE8 }
+  - { offsetInCU: 0x129, offset: 0x129, size: 0x8, addend: 0x0, symName: _sin_x, symObjAddr: 0x250, symBinAddr: 0x100003DBC, symSize: 0x30 }
+  - { offsetInCU: 0x15F, offset: 0x15F, size: 0x8, addend: 0x0, symName: _cos_x, symObjAddr: 0x280, symBinAddr: 0x100003DEC, symSize: 0x30 }
+  - { offsetInCU: 0x187, offset: 0x187, size: 0x8, addend: 0x0, symName: _tan_x, symObjAddr: 0x2B0, symBinAddr: 0x100003E1C, symSize: 0x74 }
+  - { offsetInCU: 0x1AF, offset: 0x1AF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x324, symBinAddr: 0x100003E90, symSize: 0x98 }
+...
